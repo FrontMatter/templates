@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://raw.githubusercontent.com/FrontMatter/templates/main/templates.schema.json",
+  "type": "array",
+  "items": {
+    "$ref": "https://frontmatter.codes/schema/template.schema.json"
+  }
+}
