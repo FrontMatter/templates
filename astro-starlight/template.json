@@ -2,7 +2,7 @@
   "$schema": "https://frontmatter.codes/schema/template.schema.json",
   "name": "Starlight",
   "description": "Adds the Astro Starlight configuration for Front Matter CMS",
-  "url": "https://github.com/FrontMatter/templates/tree/main/astro-starlight",
+  "url": "https://github.com/FrontMatter/templates/tree/main/astro-starlight/template",
   "version": "0.0.1",
   "author": "Front Matter",
   "type": "astro"

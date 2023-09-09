@@ -28,10 +28,10 @@ jobs:
           jq -s '[.[]]' ./main/**/template.json > ./templates/templates.json
 
       - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: ./main/templates.schema.json
-          INPUT_JSONS: ./templates/templates.json
+        uses: lyubick/action-YAML-schema-validator@v2
+        with:
+          json-schema-file: ./main/templates.schema.json
+          yaml-json-file-dir: ./templates/templates.json
 
       - name: Commit templates.json to templates
         uses: EndBug/add-and-commit@v9.1.3
