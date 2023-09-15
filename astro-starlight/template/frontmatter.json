@@ -1,5 +1,5 @@
 {
-  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": {

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://frontmatter.codes/schema/template.schema.json",
+  "name": "Blog",
+  "description": "Adds the Astro Blog configuration for Front Matter CMS",
+  "url": "https://github.com/FrontMatter/templates/tree/main/astro-blog/template",
+  "version": "0.0.1",
+  "author": "Front Matter",
+  "type": "astro"
+}
